@@ -6,8 +6,8 @@ def conectar_bd():
     try:
         conexion = MySQLdb.connect(
             host="localhost",
-            user="root",
-            password="root",
+            user="proyectof3",
+            password="proyectof3",
             database="proyectof3"
         )
         return conexion
